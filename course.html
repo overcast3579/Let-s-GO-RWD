@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學習專區</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="all.css">
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <script src="./all.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" name="" id="menu-switch">
+        <div class="header_div">
+            <div class="nav_logo">
+                <a href="index.html"><img src="images/lets_go_ps.png" class="logo_img"></a>
+            </div>
+            <label class="hb" for="menu-switch">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </label>
+            <nav class="main_nav">
+                <ul class="nav_ul">
+                    <li class="list_wrap">
+                        <a href="about.html" alt="關於我們">關於我們<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li><a href="about.html#contact_us">聯絡我們</a></li>
+                            <li><a href="about.html#environment">環境介紹</a></li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="product.html" alt="商品介紹">商品介紹<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li><a href="product.html#product_feature">精選商品</a></li>
+                            <li><a href="product.html#product_new">最新商品</a></li>
+                            <li><a href="product.html#product_hot">熱賣商品</a></li>
+                            <li><a href="product.html#product_tools">圍棋棋具</a></li>
+                            <li><a href="product.html#product_book">圍棋書籍</a></li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="course.html" alt="學習專區" class="-on">學習專區<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li class="droplist_learning">
+                                <a href="#">精選定式<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">AI定式</a></li>
+                                    <li><a href="">三三定式</a></li>
+                                    <li><a href="">星位托退</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="#">新手<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">數氣</a></li>
+                                    <li><a href="">吃子</a></li>
+                                    <li><a href="">逃跑</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="#">級位<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">吃子方法</a></li>
+                                    <li><a href="">基本布局</a></li>
+                                    <li><a href="">基本定式</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="">段位<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">布局套路</a></li>
+                                    <li><a href="">中盤攻殺</a></li>
+                                    <li><a href="">收官技巧</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="teacher.html" alt="師資介紹">師資介紹</a>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="play.html" alt="對戰系統">對戰系統</a>
+                    </li>
+                </ul>
+            </nav> 
+            <div class="nav_icon">
+                <a href="member.html">
+                    <img src="./images/user.png" alt="user" class="icon_img">
+                </a>
+                <a href="cart.html">
+                    <img src="./images/shopping-cart.png" alt="cart" class="icon_img">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="course_main">
+        <section class="course_sec course_sec_carousel">
+            <div id="sliderBoard">
+                <ul id="content">
+                    <li>
+                        <img src="../Let's Go RWD/images/course_car1.png" class="image">
+                        <div class="course_img_txt">
+                             新手必學觀念
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../Let's Go RWD/images/course_car2.png" class="image">
+                        <div class="course_img_txt">
+                            級位必學觀念
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../Let's Go RWD/images/course_car3.png" class="image">
+                        <div class="course_img_txt">
+                            段位必學觀念
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../Let's Go RWD/images/course_car4.png" class="image">
+                        <div class="course_img_txt">
+                            經典精選定式
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../Let's Go RWD/images/course_car5.png" class="image">
+                        <div class="course_img_txt">
+                            最新AI定式解析
+                        </div>
+                    </li>
+                </ul>
+                <ul id="contentButton">
+                </ul>
+	        </div>
+        </section>
+        <section class="course_sec">
+            <h2 class="course_h2">新手必學觀念</h2>
+            <h3 class="course_h3">吃子</h3>
+            <p class="course_p">吃子教學吃子教學吃子教學吃子教學吃子教學吃子教學</p>
+            <h3 class="course_h3">吃子練習</h3>
+                <p class="course_p">請點選被吃掉的棋子</p>
+            <div class="goboard">
+                
+                <div class="boardcircle">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                    <div class="circle5"></div>
+                    <div class="circle6"></div>
+                    <div class="circle7"></div>
+                    <div class="circle8"></div>
+                    <div class="circle9"></div>
+                </div>
+                <div class="joseki7 joseki">
+                    <div class="go7_1 wrong"></div>
+                    <div class="go7_2"></div>
+                    <div class="go7_3 wrong"></div>
+                    <div class="go7_4 wrong"></div>
+                    <div class="go7_5 wrong"></div>
+                    <div class="go7_6 wrong"></div>
+                    <div class="go7_7 wrong"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_block">
+            <ul class="footer_ul">
+                <li class="footer_list">
+                    <a href="#" alt="關於我們">關於我們</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">理念及願景</a></li>
+                        <li><a href="#">環境介紹</a></li>
+                        <li><a href="#">最新消息</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="產品介紹">產品介紹</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">棋具</a></li>
+                        <li><a href="#">棋書</a></li>
+                        <li><a href="#">課程</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="學習專區">學習專區</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">新手</a></li>
+                        <li><a href="#">級位</a></li>
+                        <li><a href="#">段位</a></li>
+                        <li><a href="#">高段</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="學習專區">聯絡我們</a>
+                    <ul class="footer_ul_inner">
+                        <li class="contact_list">
+                            <img src="./images/instagram.png">
+                            <p>letsgo_weiqi</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/facebook.png">
+                            <p>Let's Go棋品坊</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/mobile-button.png">
+                            <p>0955-666-520</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/map-marker.png">
+                            <p>桃園市中壢區復興路42號</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer_opentime">
+                開放時段:24HR，全年無休
+            </div>
+            <div class="copyright">
+                Copyright © 2022 let's_go Co.,Ltd
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

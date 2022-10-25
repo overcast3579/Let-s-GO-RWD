@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品介紹</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" name="" id="menu-switch">
+        <div class="header_div">
+            <div class="nav_logo">
+                <a href="index.html"><img src="images/lets_go_ps.png" class="logo_img"></a>
+            </div>
+            <label class="hb" for="menu-switch">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </label>
+            <nav class="main_nav">
+                <ul class="nav_ul">
+                    <li class="list_wrap">
+                        <a href="about.html" alt="關於我們">關於我們<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li><a href="about.html#contact_us">聯絡我們</a></li>
+                            <li><a href="about.html#environment">環境介紹</a></li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="product.html" alt="商品介紹" class="-on">商品介紹<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li><a href="#product_feature">精選商品</a></li>
+                            <li><a href="#product_new">最新商品</a></li>
+                            <li><a href="#product_hot">熱賣商品</a></li>
+                            <li><a href="#product_tools">圍棋棋具</a></li>
+                            <li><a href="#product_book">圍棋書籍</a></li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="course.html" alt="學習專區">學習專區<span class="triangle"></span></a>
+                        <ul class="droplist">
+                            <li class="droplist_learning">
+                                <a href="#">精選定式<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">AI定式</a></li>
+                                    <li><a href="">三三定式</a></li>
+                                    <li><a href="">星位托退</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="#">新手<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">數氣</a></li>
+                                    <li><a href="">吃子</a></li>
+                                    <li><a href="">逃跑</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="#">級位<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">吃子方法</a></li>
+                                    <li><a href="">基本布局</a></li>
+                                    <li><a href="">基本定式</a></li>
+                                </ul>
+                            </li>
+                            <li class="droplist_learning">
+                                <a href="">段位<span class="triangle_right"></span></a>
+                                <ul class="skill">
+                                    <li><a href="">布局套路</a></li>
+                                    <li><a href="">中盤攻殺</a></li>
+                                    <li><a href="">收官技巧</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="teacher.html" alt="師資介紹">師資介紹</a>
+                    </li>
+                    <li class="list_wrap">
+                        <a href="play.html" alt="對戰系統">對戰系統</a>
+                    </li>
+                </ul>
+            </nav> 
+            <div class="nav_icon">
+                <a href="member.html">
+                    <img src="./images/user.png" alt="user" class="icon_img">
+                </a>
+                <a href="cart.html">
+                    <img src="./images/shopping-cart.png" alt="cart" class="icon_img">
+                </a>
+            </div>
+        </div>
+    </header> -->
+    <main class="product_main">
+        <section class="product_sec product_sec_carousel">
+            <div class="product_carousel_container">
+                <div class="product_carousel">
+                    <div>
+                        <img src="images/procar01.webp" alt="商品1">
+                    </div>
+                    <div>
+                        <img src="images/procar02.webp" alt="商品2">
+                    </div>
+                    <div>
+                        <img src="images/procar03.webp" alt="商品3">
+                    </div>
+                    <div>
+                        <img src="images/procar04.webp" alt="商品4">
+                    </div>
+                    <div>
+                        <img src="images/procar05.webp" alt="商品5">
+                    </div>
+                    <div>
+                        <img src="images/procar06.webp" alt="商品6">
+                    </div>
+                    <div>
+                        <img src="images/procar07.webp" alt="商品7">
+                    </div>
+                    <div>
+                        <img src="images/procar08.webp" alt="商品8">
+                    </div>
+                    <div>
+                        <img src="images/procar09.webp" alt="商品9">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="product_h1">商品介紹</h1>
+        <section class="product_sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 product_concept_wrap">
+                                <p class="product_concept">手工</p>
+                                <span class="slash"></span>
+                                <p class="product_concept_title">我們的理念</p>
+                            </div>
+                            <div class="col-12 product_slogan">
+                                「使用圍棋具的是人，人會與棋具<br>對話。因此，棋具不但要用天然材<br>料，而且也有必要經人手製作。」
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ">
+                        <div class="row-cols-2 row-cols-lg-1 product_sec2_imgblockwrap">
+                            <div class="col col-12 product_sec2_imgblock">
+                                <img src="images/img_concepttop.jpg" alt="手工照片">
+                                <img src="images/img_conceptbottom.jpg" alt="手工照片">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product_sec3">
+            <div class="container">
+                <div class="product_nav_pos row">
+                    <div class="col-12 col-md-3 col-lg-2 product_nav_stick">
+                        <div class="row">
+                            <nav class="product_nav col-12">
+                                <ul class="product_sec3_ul">
+                                    <li><a href="#product_feature">精選商品</a></li>
+                                    <li><a href="#product_new">最新商品</a></li>
+                                    <li><a href="#product_hot">熱賣商品</a></li>
+                                    <li><a href="#product_tools">圍棋棋具</a></li>
+                                    <li><a href="#product_book">圍棋書籍</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-lg-10">
+                        <div class="product_outter_wrap row" id="product_feature">
+                            <h3 class="product_title col-12">
+                                精選商品
+                            </h3>
+                            <div class="col-12">
+                                <div class="product_feature row">
+                                    <div class="product_feature_img col-5 col-md-5 ">
+                                        <img src="images/snow.png" alt="">
+                                    </div>
+                                    <div class="product_feature_txt col-12 ">
+                                        <h4>嚴選 雪印</h4>
+                                        <p>最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。它的形狀將線條之美發揮地淋漓盡致，均一自然的圓弧曲面形狀，服貼於手。同時，它俐落的穩定感，即使置於棋盤上也能適度靜止。充分兼備能擄獲使用者之心的藝術性與實用性。</p>
+                                    </div>
+                                </div>
+                                <div class="product_feature row">
+                                    <div class="product_feature_img col-5 col-md-5 col-lg-5">
+                                        <img src="images/blossom.png" alt="">
+                                    </div>
+                                    <div class="product_feature_txt col-12">
+                                        <h4>嚴選 華印</h4>
+                                        <p>與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_outter_wrap row" id="product_new">
+                            <h3 class="product_title col-12">
+                                最新商品
+                            </h3>
+                            <div class="container">
+                                <div class="row boxuse">
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar01.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar02.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar05.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar07.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar08.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar09.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar03.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar04.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="newproduct_more">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_outter_wrap row" id="product_hot">
+                            <h3 class="product_title col-12">
+                                熱賣商品
+                            </h3>
+                            <div class="container">
+                                <div class="row boxuse">
+                                    <div class="col-12 col-md-6 col-xl-3 ">
+                                        <div class="newproduct product_hotbox"> 
+                                            <span class="hotspan"></span>
+                                            <span class="hotspan"></span>
+                                            <span class="hotspan"></span>
+                                            <span class="hotspan"></span>   
+                                            <div>
+                                                <img src="images/procar01.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar02.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar05.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar07.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar08.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar09.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar03.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar04.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="newproduct_more">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_outter_wrap row"  id="product_tools">
+                            <h3 class="product_title col-12">
+                                圍棋棋具
+                            </h3>
+                            <div class="container">
+                                <div class="row boxuse">
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar01.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar02.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar05.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar07.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar08.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar09.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar03.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar04.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="newproduct_more">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_outter_wrap row" id="product_book">
+                            <h3 class="product_title col-12">
+                                圍棋書籍
+                            </h3>
+                            <div class="container">
+                                <div class="row boxuse">
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar01.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar02.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar05.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar07.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar08.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar09.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar03.webp">
+                                            </div>
+                                            <h4>蛤棋石:雪印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">最高等級的蛤碁石，『雪印』。孤高雪白以及華麗纖細的花紋線條，是雪印最大的特徵。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3">
+                                        <div class="newproduct">
+                                            <div>
+                                                <img src="images/procar04.webp">
+                                            </div>
+                                            <h4>蛤棋石:華印</h4>
+                                            <span class="new">New</span>
+                                            <p class="info">與雪印相比，花紋間稍有間隔。徹底發揮出蛤碁石滑順的特徵、蛤貝特有花紋的觸感，以及具穩定感的自然圓弧曲面。</p>
+                                            <p class="price">$10000</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="newproduct_more">more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_block">
+            <ul class="footer_ul">
+                <li class="footer_list">
+                    <a href="#" alt="關於我們">關於我們</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">理念及願景</a></li>
+                        <li><a href="#">環境介紹</a></li>
+                        <li><a href="#">最新消息</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="產品介紹">產品介紹</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">棋具</a></li>
+                        <li><a href="#">棋書</a></li>
+                        <li><a href="#">課程</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="學習專區">學習專區</a>
+                    <ul class="footer_ul_inner">
+                        <li><a href="#">新手</a></li>
+                        <li><a href="#">級位</a></li>
+                        <li><a href="#">段位</a></li>
+                        <li><a href="#">高段</a></li>
+                    </ul>
+                </li>
+                <li class="footer_list">
+                    <a href="#" alt="學習專區">聯絡我們</a>
+                    <ul class="footer_ul_inner">
+                        <li class="contact_list">
+                            <img src="./images/instagram.png">
+                            <p>letsgo_weiqi</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/facebook.png">
+                            <p>Let's Go棋品坊</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/mobile-button.png">
+                            <p>0955-666-520</p>
+                        </li>
+                        <li class="contact_list">
+                            <img src="./images/map-marker.png">
+                            <p>桃園市中壢區復興路42號</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer_opentime">
+                開放時段:24HR，全年無休
+            </div>
+            <div class="copyright">
+                Copyright © 2022 let's_go Co.,Ltd
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

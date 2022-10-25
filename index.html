@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="index_nav">
+            <a href="index.html"><img src="../Let's Go RWD/images/logo.png" alt="Let's Go" class="logo"></a>
+        </nav>
+    </header>
+
+    <main class="index_main">
+        <section class="index_sec1">
+            <h1 class="index_h1">
+                Let's Go
+            </h1>
+            <article class="index_article">
+                歡迎來到圍棋的世界，在這裡你將對於黑與白的世界有更進一步的認識。
+            </article>
+        </section>
+        <section class="index_sec2 row">
+            <div class="index_sec2_pos col-12 col-lg-6">
+                <p class="index_txt">請移過滑鼠認識圖示</p>
+                <div class="box">
+                    <ul class="minbox">
+                        <li><ion-icon name="home-outline"></ion-icon></li>
+                        <li><ion-icon name="pricetags-outline"></ion-icon></li>
+                        <li>><ion-icon name="book-outline"></ion-icon></li>
+                        <li></li>
+                        <li><ion-icon name="game-controller-outline"></ion-icon></li>
+                        <li><ion-icon name="school-outline"></ion-icon></li>
+                    </ul>
+                    <ol class="maxbox">
+                        <li><p class="maxbox_txt">關於我們</p></li>
+                        <li><p class="maxbox_txt">商品介紹</p></li>
+                        <li><p class="maxbox_txt">學習專區</p></li>
+                        <li><p class="maxbox_txt"></p></li>
+                        <li><p class="maxbox_txt">對戰系統</p></li>
+                        <li><p class="maxbox_txt">師資介紹</p></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="index_sec2_pos col-12 col-lg-6">
+                <div class="menu_wrap">
+                    <p class="index_txt">請點擊<span class="plus">+</span>繼續</p>
+                    <ul class="menu">
+                        <li class="toggle"><ion-icon name="add-outline"></ion-icon></li>
+                        <li class="menu_li" style="--i:0;">
+                            <a href="about.html"><ion-icon name="home-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:1;">
+                            <a href="product.html"><ion-icon name="pricetags-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:2;">
+                            <a href="course.html"><ion-icon name="book-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:3;">
+                            <a href="play.html"><ion-icon name="game-controller-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:4;">
+                            <a href="teacher.html"><ion-icon name="school-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:5;">
+                            <a href="member.html"><ion-icon name="person-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:6;">
+                            <a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a>
+                        </li>
+                        <li class="menu_li" style="--i:7;">
+                            <a href="index.html"><img src="../Let's Go RWD/images/logo.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick =function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
