@@ -85,7 +85,7 @@
     font-size: 20px;
 }
 .footer_ul_inner > li > a:hover{
-    color: rgb(2, 27, 252);
+    color: rgb(210, 252, 2);
 }
 
 @media screen and (max-width:1023.999999px){
@@ -125,7 +125,7 @@
     .list_wrap > a{
         font-size: 22px;
         text-decoration: none;
-        color: rgb(2, 27, 252);
+        color: rgb(210, 252, 2);
         text-shadow: 1px 1px 3px rgb(152, 144, 144);
     }
     .hb span{
@@ -141,22 +141,22 @@
     }
     .hb span:nth-child(1){
         top: 7px;
-        transition: transform 1s, top 1s 1s;
+        transition: transform .5s, top .5s .5s;
     }
     .hb span:nth-child(2){
         top: 0;
         bottom: 0;
         opacity:1;
-        transition: opacity 1s 2s;
+        transition: opacity .5s .8s;
 }
     .hb span:nth-child(3){
         top: 31px;
-        transition: transform 1s, top 1s 1s;
+        transition: transform .5s, top .5s .5s;
     }
     #menu-switch:checked + .header_div .hb span:nth-child(1){
         top: 19px;
         transform: rotate(45deg);
-        transition: top 1s , transform 1s 1s;
+        transition: top .5s , transform .5s .5s;
     }
     #menu-switch:checked + .header_div .hb span:nth-child(2){
         opacity: 0;
@@ -165,12 +165,12 @@
     #menu-switch:checked + .header_div .hb span:nth-child(3){
         top: 19px;
         transform: rotate(-45deg);
-        transition: top 1s , transform 1s 1s;
+        transition: top .5s , transform .5s .5s;
     }
     #menu-switch:checked + .header_div .main_nav{
         left: 0;
         opacity: 1;
-        transition:  opacity 1s;
+        transition:  opacity .5s;
     }
     .footer_list:nth-child(1), .footer_list:nth-child(2), .footer_list:nth-child(3){
         display: none;
@@ -232,7 +232,7 @@
         width: 100%;
         top: calc(10px + 100%);
         display: none;
-        background: rgb(32, 32, 31);
+        background: rgb(58, 39, 1);
         box-shadow: 5px 5px 10px rgb(59, 59, 59);
     }
     .list_wrap:hover .droplist{
@@ -249,7 +249,7 @@
         text-decoration: none;
         font-size: 22px;
         color: #fff;
-        text-shadow: 2px 2px 1px rgb(210, 252, 2);
+        text-shadow: 2px 2px 1px rgb(92, 68, 1);
     }
     .droplist_learning{
         position: relative;
@@ -271,7 +271,7 @@
         text-align: center;
         padding: 10px;
         position: absolute;
-        background-color: rgb(32, 32, 31);
+        background-color: rgb(58, 39, 1);
         width: 100%;
         top: 0;
         right: 10px;

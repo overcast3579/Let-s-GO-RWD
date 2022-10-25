@@ -584,7 +584,7 @@
     background: #fff;
     transform: rotate(45deg);
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: -5%;
     z-index: 1;
 }
@@ -1047,14 +1047,44 @@
     margin: 100px auto;
 }  
 .teacher_info{
-    margin: auto;
+    margin: 100px auto 50px;
     padding: 10px;
     width: 60%;
+    position: relative;
 }
 .teacher_info >img{
     width: 100%;
 }
-
+.teacher_txt{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    opacity: 0;
+}
+.teacher_info:hover .teacher_info>img{
+    filter:blur(4px);
+}
+.teacher_info:hover .teacher_txt{
+    top: 100%;
+    opacity: 1;
+}
+.teacher_txt >h3{
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    padding: 5px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+.teacher_txt>p{
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.2;
+    flex-grow: 1;
+    color: #fff;
+}
 .play_main{
     background-color: #131212;
     width: 100%;
@@ -1329,6 +1359,7 @@
         display: flex;
         flex-direction: row;
         position: relative;
+        padding: 150px 0;
     }
     .play_link:nth-child(1){
         position: absolute;

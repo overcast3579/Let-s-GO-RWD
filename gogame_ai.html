@@ -248,7 +248,7 @@
                 const box = document.querySelectorAll('.box');
                 const randonNum = Math.ceil(Math.random() * box.length);
                 if (box[randonNum].classList.contains('black') || box[randonNum].classList.contains('white') ) {
-                    computer();
+					computer();
                 } else {
                     box[randonNum].click();
                 }
@@ -385,7 +385,6 @@
 						checkBoard[pX][pY] = CHECKED;
 					}
 				}
-			
 			}
 			return count;
 		}
